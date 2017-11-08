@@ -9,8 +9,8 @@
    
                                                
        String jdbcUrl = "jdbc:mysql://onedbinstance2.cemltpez1xh9.ap-northeast-2.rds.amazonaws.com/allinone"; // MySQL 계정 "jdbc:mysql://localhost:3306/DB이름"
-       String dbId = "hong"; // MySQL 계정 "로컬일 경우 root"
-       String dbPw = "ekfvoddl"; // 비밀번호 "mysql 설치 시 설정한 비밀번호"
+       String dbId = "****"; // MySQL 계정 "로컬일 경우 root"
+       String dbPw = "******"; // 비밀번호 "mysql 설치 시 설정한 비밀번호"
        Connection conn = null;
        PreparedStatement pstmt = null;
        ResultSet rs = null;
