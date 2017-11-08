@@ -11,8 +11,8 @@
    String enter = request.getParameter("enter");
    
        String jdbcUrl = "jdbc:mysql://onedbinstance2.cemltpez1xh9.ap-northeast-2.rds.amazonaws.com/allinone";
-       String dbId = "hong"; 
-       String dbPw = "ekfvoddl"; 
+       String dbId = "****"; 
+       String dbPw = "*****"; 
        Connection conn = null;
        PreparedStatement pstmt = null;
        String sql = "";
