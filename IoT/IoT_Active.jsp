@@ -15,7 +15,7 @@ String active = request.getParameter("active");
 String driverName = "org.gjt.mm.mysql.Driver";
 String dbURL = "jdbc:mysql://onedbinstance2.cemltpez1xh9.ap-northeast-2.rds.amazonaws.com/allinone";
 Class.forName(driverName);
-Connection conn = DriverManager.getConnection(dbURL,"hong","ekfvoddl");
+Connection conn = DriverManager.getConnection(dbURL,"****","*****");
 Statement stmt = conn.createStatement();
 String strSQL = "SELECT iotstatus FROM iot where iotnum='" + iotnum + "'";
 ResultSet rs = stmt.executeQuery(strSQL);
