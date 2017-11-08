@@ -11,7 +11,7 @@ String dbURL = "jdbc:mysql://onedbinstance2.cemltpez1xh9.ap-northeast-2.rds.amaz
 
 
 Class.forName(driverName);
-Connection conn = DriverManager.getConnection(dbURL,"hong","ekfvoddl");
+Connection conn = DriverManager.getConnection(dbURL,"****","*****");
 Statement stmt = conn.createStatement();
 
 PreparedStatement pstmt = null;
